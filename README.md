@@ -1,4 +1,4 @@
-<p><strong># busbud-backend-challengecities-suggestion-api</strong></p>
+<p><h2># busbud-backend-challengecities-suggestion-api</h2></p>
 <p>This an API endpoint that provides auto-complete suggestions for large cities in USA and Canada.</p>
 
 <p>The endpoint is exposed at /suggestions<br/>
@@ -7,7 +7,7 @@ The caller's location should also be supplied via querystring parameters latitud
 <p>Sample Request</br>
 GET /suggestions?q=Londo&latitude=43.70011&longitude=-79.4163</p>
 <p>
-Sample Response
+Sample Response</br>
 {
   "name": "London, Canada",
   "latitude": "42.98339",
